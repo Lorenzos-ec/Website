@@ -1,0 +1,101 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, 
+h2 {
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+header h1 {
+  margin: 0; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  padding: 1em;
+}
+
+/* Sections */
+
+section {
+  padding: 2em;
+}
+
+section h2 {
+  margin-bottom: 1em;
+}
+
+/* Projects */
+
+#projects img {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+/* About */
+
+#about p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Contact */
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  margin-bottom: 1em; 
+}
+
+form button {
+  background: #333;
+  color: #fff;
+  padding: 0.5em 2em;
+  border: none;
+} 
+
+/* Footer */
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 2em;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
